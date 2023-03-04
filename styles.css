@@ -1,0 +1,57 @@
+@media (prefers-reduced-motion: no-preference) {
+    *{
+      scroll-behaviour: smooth;
+    }
+  }
+  body {
+    font-family: Sans-serif;
+    padding: 1px;
+    
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-top: 1em auto;
+    margin-bottom: 15px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .established {
+    font-style: italic;
+  }
+  h1, h3, {
+     text-align: left;
+  }
+  .p {
+    margin-left: 2px;
+  }
+  hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+  }
+  .city {
+    background-color: tomato;
+    color: white;
+    border: 2px solid black;
+  
+  }
+  
+  #navbar {
+   position: left; 
+  }
+  .nav {
+    width: 100%;
+    max-width: 300px;
+    height: 180px
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+  }
+  
+
+  
+  
